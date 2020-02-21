@@ -1,11 +1,11 @@
 body {
     margin: 0;
+    margin-top: 40px;
     padding: 0;
     font-family: arial;
   }
 
 nav{
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -39,23 +39,44 @@ ul {
   }
   
   img {
+    
     display: block;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
+    border-width: 1.2px;
     border-radius: 50%;
   }
 
-  #welcomeContainer{
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 50px;
+  .contentContainer{
+    margin-top: 80px;
   }
 
-  #welcomeContent{
-    font-size: 20px;
+  .content{
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+    width: 45%;
     padding: 20px;
+    font-size: 25px;
     text-align: center;
-   
+  
+    border-style: solid;
+    border-width: 1.2px;
+    border-radius: 4px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  h1{
+    margin: 0;
+    text-align: left;
+    font-size: 25px;
+  }
+
+  #bioContainer{
+    font-size: 15px;
+    text-align: left;
   }
