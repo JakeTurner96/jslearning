@@ -3,6 +3,8 @@ body {
     margin-top: 40px;
     padding: 0;
     font-family: arial;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
   }
 
 nav{
@@ -39,9 +41,8 @@ ul {
   }
   
   img {
-    
     display: block;
-    width: 250px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
     border-style: solid;
@@ -59,6 +60,7 @@ ul {
     padding: 20px;
     font-size: 25px;
     text-align: center;
+    background-color:#fcfcfc;
   
     border-style: solid;
     border-width: 1.2px;
